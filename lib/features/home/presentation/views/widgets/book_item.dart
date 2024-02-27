@@ -9,7 +9,7 @@ class BookItem extends StatelessWidget {
     return AspectRatio(
       aspectRatio: 4 / 6.3,
       child: Container(
-        margin: EdgeInsets.only(right: 10, left: 5),
+        margin: EdgeInsets.only(right: 10),
         decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
