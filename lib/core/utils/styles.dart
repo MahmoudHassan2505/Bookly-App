@@ -10,6 +10,12 @@ abstract class Styles {
       fontSize: 20,
       fontWeight: FontWeight.w600,
       fontFamily: 'GT Sectra Fine Regular');
+
+  static const TextStyle25 = TextStyle(
+      fontSize: 25,
+      fontWeight: FontWeight.w600,
+      fontFamily: 'GT Sectra Fine Regular');
+
   static const TextStyle15stock = TextStyle(
     fontSize: 15,
     fontWeight: FontWeight.w600,
