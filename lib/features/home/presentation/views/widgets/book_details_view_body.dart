@@ -1,9 +1,9 @@
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/book_item.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/book_listview.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/books_action_button.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/rating_item.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/you_can_also_like.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -72,7 +72,7 @@ class BookDetailsViewBody extends StatelessWidget {
                 height: 150,
                 child: Padding(
                   padding: EdgeInsets.only(top: 10, left: 30, bottom: 15),
-                  child: BookListView(),
+                  child: YouCanAlsoLike(),
                 ),
               )),
             ],
