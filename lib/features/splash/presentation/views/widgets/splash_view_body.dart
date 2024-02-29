@@ -1,3 +1,4 @@
+import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/features/splash/presentation/views/widgets/animated_text.dart';
 import 'package:flutter/cupertino.dart';
@@ -62,7 +63,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
 
   void NavigateToHome() {
     Future.delayed(const Duration(seconds: 1), () {
-      GoRouter.of(context).push('/homeView');
+      GoRouter.of(context).push(AppRouter.KHomeView);
     });
   }
 }
