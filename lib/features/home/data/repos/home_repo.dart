@@ -16,5 +16,5 @@ abstract class HomeRepo {
 //   R --> data type at Success
 //----------------------------------------------
   Future<Either<Failure, List<BookModel>>> fetchAllBooks();
-  Future<Either<Failure, List<BookModel>>> fetchFavouriteBooks();
+  Future<Either<Failure, List<BookModel>>> fetchNewesteBooks();
 }
